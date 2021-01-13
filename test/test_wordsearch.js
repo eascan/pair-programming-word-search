@@ -41,7 +41,7 @@ describe("#wordSearch()", function() {
     const result = wordSearch([], 'SEINFIELD');
       
 
-    assert.isFalse(result);
+    assert.isUndefined(result);
 
 
   });

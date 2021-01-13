@@ -29,7 +29,7 @@ const transpose = function(matrix) {
     const verticalJoin = verticalFlipped.map(ls => ls.join(''));
     const horizontalJoin = letters.map(ls => ls.join(''));
     
-    if (letters === [] || word === '') {
+    if (letters.length < 1 || word === '') {
       return undefined;
     }
 
